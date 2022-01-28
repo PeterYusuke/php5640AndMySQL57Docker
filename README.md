@@ -2,6 +2,11 @@
 Dockerized project of php with MySQL
 PHPプロジェクトをローカルで開発する基本的なDockerプロジェクト
 
+バージョンは以下に
+PHP:5.6.40
+MySQL:5.7
+
+
 # PHP
 http://localhost:8080
 
