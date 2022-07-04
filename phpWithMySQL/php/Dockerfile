@@ -1,9 +1,5 @@
-FROM php:fpm
+FROM php:5.6.40-fpm
 COPY php.ini /usr/local/etc/php/
-
-# Xdebug install
-RUN pecl install xdebug \
-    && docker-php-ext-enable xdebug
 
 # php module
 RUN apt-get update && apt-get install -y \
